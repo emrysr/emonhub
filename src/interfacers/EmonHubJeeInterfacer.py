@@ -77,9 +77,9 @@ class EmonHubJeeInterfacer(ehi.EmonHubSerialInterfacer):
 
         """
 
-	#just send it
-	txc = self._process_tx(cargo)
-	self.send(txc)
+    	#just send it
+        txc = self._process_tx(cargo)
+        self.send(txc)
 
 
 
